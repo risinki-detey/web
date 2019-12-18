@@ -1,3 +1,10 @@
+<?php
+
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
+header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept');
+
+?>
 <!DOCTYPE html>
 <html amp>
 <head>
@@ -253,3 +260,4 @@ body{font-family: Didact Gothic;}blockquote{border-color: #7d5bd9;}div[submit-su
 
 </body>
 </html>
+
